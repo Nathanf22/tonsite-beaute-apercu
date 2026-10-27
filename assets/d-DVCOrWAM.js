@@ -1,0 +1,1 @@
+(function(){var e=document.getElementById("booking");!e||typeof e.showModal!="function"||([].forEach.call(document.querySelectorAll("a.book"),function(t){t.addEventListener("click",function(n){n.preventDefault(),e.showModal()})}),e.addEventListener("click",function(t){t.target===e&&e.close()}),e.querySelector("[data-close]").addEventListener("click",function(){e.close()}))})();
